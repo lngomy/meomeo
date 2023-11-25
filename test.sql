@@ -2,6 +2,7 @@ CREATE OR REPLACE TABLE rpt_order AS (
     SELECT
         order_id,
         state,
+        address
         item_count,
         revenue,
         discount,
