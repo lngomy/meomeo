@@ -13,3 +13,4 @@ CREATE OR REPLACE TABLE rpt_order AS (
     JOIN d_customers
         ON orders.c_id = customers.id
 )
+
