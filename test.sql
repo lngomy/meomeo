@@ -6,7 +6,8 @@ CREATE OR REPLACE TABLE rpt_order AS (
         item_count,
         revenue,
         discount,
-        shipping_cost
+        shipping_cost, 
+        order_status 
 
     FROM f_orders
     JOIN d_customers
